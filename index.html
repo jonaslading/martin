@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" ng-app="app" ng-cloak>
+<head>
+  <title>Sprotte Rangers in Spacev</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <style>body, a, a:hover { cursor:url(cursor.png), auto; }</style>
+</head>
+<body>
+
+<!-- NG-view is where your view is served via the routes setup in config.js-->
+<div ng-view=""></div>
+
+<!--libs-->
+<script src="scripts/libs/angular.min.js"></script>
+<script src="scripts/libs/angular-resource.min.js"></script>
+<script src="scripts/libs/angular-route.min.js"></script>
+<script src="scripts/libs/base64.js"></script>
+
+
+<!--config-->
+<script src="scripts/config.js"></script>
+
+<!--controllers-->
+<script src="scripts/controllers/PowerDreasCtrl.js"></script>
+
+<!--directives-->
+<script src="scripts/directives/backImg.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+
+
+form label{
+  font-size: 50px;
+}
+form input{
+  font-size: 30px;
+}
+form button{
+  font-size: 30px;
+}
+/*body {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=1015), auto !important;}*/
+
+.mandreas{
+  z-index: 1;
+  position: relative;
+
+  -webkit-filter: blur(0px);
+  -webkit-animation: fadein linear 3.5s;
+}
+.background{
+  height: 100px;
+  width: ç300px;
+  position: relative;
+
+}
+
+/*@-webkit-keyframes fadein {*/
+   /*0% {    -webkit-filter: opacity(0%) blur(10px);}*/
+   /*50% { -webkit-filter: opacity(100%)  blur(10px);}*/
+   /*100% {  -webkit-filter: opacity(100%) blur(0px);}*/
+ /*}*/
